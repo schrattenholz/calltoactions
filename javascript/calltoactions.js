@@ -1,4 +1,5 @@
-	//Schrattenholz\CallToActions
+/*vendor\schrattenholz\clltoactions\javascript\clltoactions.js*/
+//Schrattenholz\CallToActions
 		if($('#calltoactions').length>0){
 			$('.calltoaction').each(function(){
 				$(this).fadeTo(200,1);
