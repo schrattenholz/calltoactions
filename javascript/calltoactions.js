@@ -1,5 +1,6 @@
 /*vendor\schrattenholz\clltoactions\javascript\clltoactions.js*/
 //Schrattenholz\CallToActions
+jQuery( document ).ready(function() {
 		if($('#calltoactions').length>0){
 			$('.calltoaction').each(function(){
 				$(this).fadeTo(200,1);
@@ -18,4 +19,5 @@
 			}); 
 			
 		}
+});
 	//End Schrattenholz\CallToActions
